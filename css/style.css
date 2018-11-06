@@ -133,6 +133,9 @@ div.sidebar-wrapper {
  /*THis is For All*/
 }
 /*Start Table style*/
+/*End Table Style*/
+
+/*Start Form style*/
 .page-content-wrapper .panel-body .form-control{
   border-radius: 0;
   margin-bottom: 15px;
@@ -142,8 +145,12 @@ div.sidebar-wrapper {
 }
 .page-content-wrapper .panel-body .send{
   margin-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .page-content-wrapper .panel-body .send .btn{
-  margin-left: 10px;
+  width: 49%;
+  border-radius: 0;
+
 }
-/*End Table Style*/
+/*End Form Style*/
