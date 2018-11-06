@@ -1,7 +1,13 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
+
+
 body {
   direction: rtl;
   overflow-x: hidden;
+  font-family: Cairo, sans-serif;
 }
+
 .navbar{
   border-bottom: 2px solid #fff;
 }
