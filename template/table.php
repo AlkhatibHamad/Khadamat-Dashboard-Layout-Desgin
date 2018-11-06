@@ -10,8 +10,8 @@
             
             <div class="panel-heading">
                 <h1><div class="dropdown pull-left">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
+                  <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    إدارة
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">إضافة</a>
@@ -23,7 +23,32 @@
             
             <div class="panel-body"><!--Start Body Content-->
                 <!--Start Form Before Table-->
+                <form>
+                    <div class="form-row">
 
+                        <div class="form-group col-md-4">
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        
+                        <div class="form-group col-md-3">
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+
+                        <div class="form-group col-md-1">
+                           <button type="submit" class="btn btn-primary mb-4">إرسال</button>
+                        </div>
+                    </div>
+                </form>
                 <!--End Form Before Table-->
                 <table class="table table-bordered table-striped"><!--Start Table-->
                     <thead>
@@ -46,9 +71,31 @@
                             <td>Mark</td>
                             <td>Otto</td>
                             <td class="text-center">
+
+                                <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown"  aria-expanded="false">
+                                    <i class="fa fa-home fa-2x"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">إضافة</a>
+                                        <a class="dropdown-item" href="#">حذف</a>
+                                    </div>
+                                </div>
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td class="text-center">
                                 <div class="dropdown">
                                         <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-home"></i>
+                                    <i class="fa fa-home fa-2x"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">إضافة</a>
@@ -67,26 +114,7 @@
                             <td class="text-center">
                                 <div class="dropdown">
                                         <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-home"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">إضافة</a>
-                                        <a class="dropdown-item" href="#">حذف</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td class="text-center">
-                                <div class="dropdown">
-                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-home"></i>
+                                    <i class="fa fa-home fa-2x"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">إضافة</a>

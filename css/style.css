@@ -135,6 +135,7 @@ div.sidebar-wrapper {
     margin-right: 0;
   }
 }
+
 /*THis is For All*/
 .page-content-wrapper .panel-heading{
  margin-top: 20px;
@@ -143,24 +144,33 @@ div.sidebar-wrapper {
  /*THis is For All*/
 }
 /*Start Table style*/
+.page-content-wrapper .panel-body .form-row .form-group button{
+  width: 100%;
+}
+.page-content-wrapper .panel-body .table .dropdown button{
+  border: 0;
+background: none;
+}
 /*End Table Style*/
 
 /*Start Form style*/
 .page-content-wrapper .panel-body .form-control{
   border-radius: 0;
-  margin-bottom: 15px;
 }
 .page-content-wrapper .panel-body .custom-file-label{
   border-radius: 0;
 }
-.page-content-wrapper .panel-body .send{
+.page-content-wrapper .panel-body .form-row label{
+  font-weight: bold;
   margin-top: 15px;
+}
+.page-content-wrapper .panel-body .send{
+  margin-top: 40px;
   padding-left: 0;
   padding-right: 0;
 }
 .page-content-wrapper .panel-body .send .btn{
   width: 49%;
   border-radius: 0;
-
 }
 /*End Form Style*/
