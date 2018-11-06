@@ -104,7 +104,11 @@ div.sidebar-wrapper {
     left: 0;   
     background-color: #fff;
 }
+.custom-file {
+  margin-top: 10px;
+}
 /*End Sidebar Styles */
+
 @media(min-width:768px) {
 
   a.navbar-brand.mr-auto{
