@@ -1,7 +1,13 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
+
+
 body {
   direction: rtl;
   overflow-x: hidden;
+  font-family: Cairo, sans-serif;
 }
+
 .navbar{
   border-bottom: 2px solid #fff;
 }
@@ -98,7 +104,11 @@ div.sidebar-wrapper {
     left: 0;   
     background-color: #fff;
 }
+.custom-file {
+  margin-top: 10px;
+}
 /*End Sidebar Styles */
+
 @media(min-width:768px) {
 
   a.navbar-brand.mr-auto{

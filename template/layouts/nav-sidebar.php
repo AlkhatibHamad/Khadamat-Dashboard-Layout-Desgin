@@ -13,32 +13,33 @@
 </head>
 <body>
 
-    <!--Start Navbar-->
-    <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top">
-        <a href="#menu-toggle" id="menu-toggle" class="navbar-brand"><span class="navbar-toggler-icon"></span></a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExample02">
-            <a class="navbar-brand mr-auto" href="#">اللهم يسر</a><!--Brand Name-->
-        </div>
-    </nav>
-    <!--End Navbar-->
+    <div id="app">
 
-    <!--Start wrapper-->
-    <div id="wrapper" class="toggled">
-        <!--Start Sidebar Wrapper -->
-        <div class="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="hvr-backward"> <a href="#">الرئيسية   <i class="fa fa-home"></i></a> </li>
-                <li class="hvr-backward"> <a href="#">أعمالنا       <i class="fa fa-home"></i></a> </li>
-                <li class="hvr-backward"> <a href="#">إتصل بنا   <i class="fa fa-home"></i></a> </li>
-                <li class="hvr-backward"> <a href="#">من نحن      <i class="fa fa-home"></i></a> </li>
-                <li class="hvr-backward"> <a href="#">الموقع       <i class="fa fa-home"></i></a> </li>
-                <li class="hvr-backward"> <a href="#">اخري   <i class="fa fa-home"></i></a> </li>    
-            </ul>
-            <button type="button" class="btn btn-secondary hvr-wobble-vertical ">خروج</button><!--Log Out Button-->
-        </div>
-        <!--End Sidebar Wrapper -->
+        <!--Start Navbar-->
+        <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top">
+            <a href="#menu-toggle" id="menu-toggle" class="navbar-brand"><span class="navbar-toggler-icon"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <a class="navbar-brand mr-auto" href="#">اللهم يسر</a><!--Brand Name-->
+            </div>
+        </nav>
+        <!--End Navbar-->
+
+        <!--Start wrapper-->
+        <div id="wrapper" class="toggled">
+            <!--Start Sidebar Wrapper -->
+            <div class="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
+                    <li class="hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
+                </ul>
+                <button type="button" class="btn btn-secondary hvr-wobble-vertical ">خروج</button><!--Log Out Button-->
+            </div>
+            <!--End Sidebar Wrapper -->
+
+
+
 
 
 
