@@ -1,6 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
-/*Start Poblic Style*/
+/*Start Public Style*/
 body {
   direction: rtl;
   overflow-x: hidden;
@@ -23,6 +23,26 @@ background-color: #aaa;
 .form-control,
 .custom-file-label{
   border-radius: 0;
+}
+.help-block {
+  color: #3c763d;
+  font-size: 12px;
+}
+.has-error {
+  color :#a94442;
+}
+.lobibox-notify {
+  font-family: "Cairo", sans-serif;
+}
+.lobibox-notify .lobibox-notify-title {
+  margin-right: 10px;
+}
+.lobibox-notify-wrapper.top {
+  top: 57px;
+}
+.lobibox-notify-wrapper.left {
+  left: 5px;
+  margin-right: 0px;
 }
 /*End Poblic Style*/
 .navbar{
@@ -203,26 +223,6 @@ transform: scale(1.2,1.2);
 }
 @media (min-width: 768px){
 
-}
-.help-block {
-  color: #3c763d;
-  font-size: 12px;
-}
-.has-error {
-  color :#a94442;
-}
-.lobibox-notify {
-  font-family: "Cairo", sans-serif;
-}
-.lobibox-notify .lobibox-notify-title {
-  margin-right: 10px;
-}
-.lobibox-notify-wrapper.top {
-  top: 57px;
-}
-.lobibox-notify-wrapper.left {
-  left: 5px;
-  margin-right: 0px;
 }
 /*End Table Style*/
 /*End Body Media Query*/
