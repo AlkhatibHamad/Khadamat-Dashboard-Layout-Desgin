@@ -115,8 +115,7 @@ div.sidebar-wrapper {
 }
 .sidebar-nav li {
   line-height: 40px;
-  padding-top: 20px;
-  padding-right: 15px;
+  padding-top: 10px;
 }
 .sidebar-nav li a{
   display: block;
