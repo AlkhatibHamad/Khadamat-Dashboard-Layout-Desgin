@@ -9,7 +9,7 @@
         <div class="container-fluid">
             
             <div class="panel-heading">
-                <h1><button type="button" class="btn btn-secondary pull-left">رجوع</button>البحث</h1>
+                <h4><button type="button" class="btn btn-secondary pull-left">رجوع</button>البحث</h4>
             </div>
             
             <div class="panel-body"><!--Start Body Content-->

@@ -44,8 +44,8 @@ background-color: #aaa;
   left: 5px;
   margin-right: 0px;
 }
-.page-content-wrapper .panel-heading h1{
-  color: #555555;
+.page-content-wrapper .panel-heading{
+  color: #206371;
 }
 /*End Poblic Style*/
 .navbar{
@@ -148,7 +148,7 @@ div.sidebar-wrapper {
     background-color: #aaa;
 }
 .custom-file {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 /*End Sidebar Styles */
 /*Start Sidebar Media Query*/

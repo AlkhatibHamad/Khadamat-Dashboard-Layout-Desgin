@@ -9,7 +9,7 @@
         <div class="container-fluid">
             
             <div class="panel-heading">
-                <h1><div class="dropdown pull-left">
+                <h4><div class="dropdown pull-left">
                   <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     إدارة
                   </button>
@@ -18,7 +18,7 @@
                     <a class="dropdown-item" href="#">حذف</a>
                   </div>
             </div>
-                الرئيسية</h1>
+                الرئيسية</h4>
             </div>
             
             <div class="panel-body"><!--Start Body Content-->
