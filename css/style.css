@@ -11,9 +11,13 @@ body {
  margin-bottom: 20px;
  border-bottom: 2px solid #aaa;
 }
-.btn{
-  border:2px solid #ffc107;
+
+.btn {
+  border: 1px solid #999;
+  margin-right: 5px;
+  margin-left: 5px;
 }
+
 .btn,
 .form-control,
 .custom-file-label{
@@ -39,22 +43,29 @@ body {
   left: 5px;
   margin-right: 0px;
 }
-.page-content-wrapper .panel-heading h1{
-  color: #555555;
+.page-content-wrapper .panel-heading{
+  color: #a56e2d;
+}
+.dropdown-menu {
+  padding: 0;
+}
+.dropdown-item:hover {
+  background-color: #fda53e;
 }
 /*End Poblic Style*/
 .navbar{
-  background-color: #060606!important; 
+  background-color: #171717!important;
   /*box-shadow: 0 2px 3px #aaa;*/
-  border-bottom: 2px solid #777;
+  border-bottom: 2px solid #fda53e;
 }
 /*Brand Name*/
 .navbar a.navbar-brand {
     font-weight: bold;
     margin-right: 15px;
+  color: #fda53e;
 }
 .navbar .nav .nav-item .nav-link {
-    color: #aaa;
+    color: #FFF;
 }
 /*wrapper*/
 #wrapper {
@@ -75,7 +86,7 @@ body {
   height: 100%;
   margin-right: -250px;
   overflow-y: auto;
-  background-color: #060606;
+  background-color: #171717;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -86,7 +97,7 @@ body {
 }
 div.page-content-wrapper,
 div.sidebar-wrapper {
-    top: 50px;
+    top: 61px;
 }
 .page-content-wrapper {
   width: 100%;
@@ -108,17 +119,16 @@ div.sidebar-wrapper {
 }
 .sidebar-nav li {
   line-height: 40px;
-  padding-top: 10px;
 }
 .sidebar-nav li a{
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #ccc;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #eee;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(253, 165, 62, .5);
 }
 .sidebar-nav li.hvr-backward{
   display: block;
@@ -127,7 +137,7 @@ div.sidebar-wrapper {
   padding-right: 15px;
 }
 .custom-file {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 /*End Sidebar Styles */
 /*Start Sidebar Media Query*/
@@ -188,13 +198,7 @@ transform: scale(1.2,1.2);
   color: #555555;
 }
 .page-content-wrapper .panel-body .send{
-  margin-top: 40px;
-  padding-left: 0;
-  padding-right: 0;
-}
-.page-content-wrapper .panel-body .send .btn{
-  width: 49%;
-  border-radius: 0;
+  margin-top: 30px;
 }
 /*End Form Style*/
 

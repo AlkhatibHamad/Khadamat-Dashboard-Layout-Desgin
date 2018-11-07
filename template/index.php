@@ -10,7 +10,7 @@
         <div class="container-fluid">
             
             <div class="panel-heading">
-                <h1>بسم الله الرحمن الرحيم</h1>
+                <h4>بسم الله الرحمن الرحيم</h4>
             </div>
 
             <div class="panel-body">
