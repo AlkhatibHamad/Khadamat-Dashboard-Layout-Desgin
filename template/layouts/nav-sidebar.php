@@ -24,12 +24,12 @@
             </div>
             <!--Navbar Links-->
             <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-sign-in"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-bell"></i></a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-bell"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-power-off"></i></a>
+                </li>
             </ul>
 
         </nav>

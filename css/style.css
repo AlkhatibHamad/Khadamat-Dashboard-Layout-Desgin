@@ -1,6 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
-/*Start Poblic Style*/
+/*Start Public Style*/
 body {
   direction: rtl;
   overflow-x: hidden;
@@ -19,10 +19,34 @@ body {
 .custom-file-label{
   border-radius: 0;
 }
+.help-block {
+  color: #3c763d;
+  font-size: 12px;
+}
+.has-error {
+  color :#a94442;
+}
+.lobibox-notify {
+  font-family: "Cairo", sans-serif;
+}
+.lobibox-notify .lobibox-notify-title {
+  margin-right: 10px;
+}
+.lobibox-notify-wrapper.top {
+  top: 57px;
+}
+.lobibox-notify-wrapper.left {
+  left: 5px;
+  margin-right: 0px;
+}
+.page-content-wrapper .panel-heading h1{
+  color: #555555;
+}
 /*End Poblic Style*/
 .navbar{
   background-color: #060606!important; 
-  box-shadow: 0 2px 3px #aaa;
+  /*box-shadow: 0 2px 3px #aaa;*/
+  border-bottom: 2px solid #777;
 }
 /*Brand Name*/
 .navbar a.navbar-brand {
@@ -84,8 +108,7 @@ div.sidebar-wrapper {
 }
 .sidebar-nav li {
   line-height: 40px;
-  padding-top: 20px;
-  padding-right: 15px;
+  padding-top: 10px;
 }
 .sidebar-nav li a{
   display: block;
@@ -162,6 +185,7 @@ transform: scale(1.2,1.2);
 .page-content-wrapper .panel-body .form-row label{
   font-weight: bold;
   margin-top: 15px;
+  color: #555555;
 }
 .page-content-wrapper .panel-body .send{
   margin-top: 40px;
@@ -184,4 +208,5 @@ transform: scale(1.2,1.2);
 @media (min-width: 768px){
 
 }
+/*End Table Style*/
 /*End Body Media Query*/
