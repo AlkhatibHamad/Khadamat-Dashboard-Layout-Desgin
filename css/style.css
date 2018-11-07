@@ -1,20 +1,41 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic');
-
-
+/*Start Poblic Style*/
 body {
   direction: rtl;
   overflow-x: hidden;
   font-family: Cairo, sans-serif;
 }
+.page-content-wrapper .panel-heading{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ border-bottom: 2px solid #aaa;
+}
+.btn{
+  border:0;
+  background-color: #000;
+}
+.btn:hover{
 
+}
+.btn,
+.form-control,
+.custom-file-label{
+  border-radius: 0;
+}
+/*End Poblic Style*/
 .navbar{
-  border-bottom: 2px solid #fff;
+  background-color: #060606!important; 
+  box-shadow: 0 2px 3px #aaa;
 }
 /*Brand Name*/
 .navbar a.navbar-brand {
     font-weight: bold;
     margin-right: 15px;
+}
+.navbar .nav .nav-item .nav-link {
+    background-color: #000;
+    color: #aaa;
 }
 /*wrapper*/
 #wrapper {
@@ -35,7 +56,7 @@ body {
   height: 100%;
   margin-right: -250px;
   overflow-y: auto;
-  background-color: #007bff;
+  background-color: #060606;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -53,7 +74,7 @@ body {
 div.page-content-wrapper,
 div.sidebar-wrapper {
     top: 50px;
-  }
+}
 .page-content-wrapper {
   width: 100%;
   position: absolute;
@@ -73,7 +94,6 @@ div.sidebar-wrapper {
   list-style: none;
 }
 .sidebar-nav li {
-  text-indent: 20px;
   line-height: 40px;
   padding-top: 20px;
   padding-right: 15px;
@@ -102,15 +122,14 @@ div.sidebar-wrapper {
     margin-top: 15px;
     right: 0;
     left: 0;   
-    background-color: #fff;
+    background-color: #aaa;
 }
 .custom-file {
   margin-top: 10px;
 }
 /*End Sidebar Styles */
-
+/*Start Sidebar Media Query*/
 @media(min-width:768px) {
-
   a.navbar-brand.mr-auto{
     margin-right: 17px;
   }
@@ -135,28 +154,27 @@ div.sidebar-wrapper {
     margin-right: 0;
   }
 }
+/*End Sidebar Media Query*/
 
-/*THis is For All*/
-.page-content-wrapper .panel-heading{
- margin-top: 20px;
- margin-bottom: 20px;
- border-bottom: 2px solid#aaa;
- /*THis is For All*/
-}
 /*Start Table style*/
 .page-content-wrapper .panel-body .form-row .form-group button{
   width: 100%;
 }
 .page-content-wrapper .panel-body .table .dropdown button{
   border: 0;
-background: none;
+  background: none;
+}
+.page-content-wrapper .panel-body .table .dropdown button:hover{
+
+}
+.page-content-wrapper .panel-body .table .dropdown-menu.show {
+    border-radius: 0;
+    background-color: #f2f2f2;
 }
 /*End Table Style*/
 
 /*Start Form style*/
-.page-content-wrapper .panel-body .form-control{
-  border-radius: 0;
-}
+
 .page-content-wrapper .panel-body .custom-file-label{
   border-radius: 0;
 }
@@ -174,3 +192,12 @@ background: none;
   border-radius: 0;
 }
 /*End Form Style*/
+
+/*Start Body Media Query*/
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px){
+
+}
+/*End Body Media Query*/

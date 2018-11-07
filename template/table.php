@@ -28,14 +28,14 @@
 
                         <div class="form-group col-md-4">
                           <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
+                            <option selected>إختار...</option>
                             <option>...</option>
                           </select>
                         </div>
 
                         <div class="form-group col-md-4">
                           <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
+                            <option selected>إختار...</option>
                             <option>...</option>
                           </select>
                         </div>
@@ -54,12 +54,12 @@
                     <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col" class="text-center">Handle</th>
+                          <th scope="col">الاول</th>
+                          <th scope="col">الثاني</th>
+                          <th scope="col">الثالث</th>
+                          <th scope="col">الرابع</th>
+                          <th scope="col">الخامس</th>
+                          <th scope="col" class="text-center">السادس</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,31 +71,9 @@
                             <td>Mark</td>
                             <td>Otto</td>
                             <td class="text-center">
-
                                 <div class="dropdown">
                                         <button type="button" id="dropdownMenuButton" data-toggle="dropdown"  aria-expanded="false">
-                                    <i class="fa fa-home fa-2x"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">إضافة</a>
-                                        <a class="dropdown-item" href="#">حذف</a>
-                                    </div>
-                                </div>
-
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td class="text-center">
-                                <div class="dropdown">
-                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-home fa-2x"></i>
+                                    <i class="fa fa-cog fa-2x"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">إضافة</a>
@@ -114,7 +92,26 @@
                             <td class="text-center">
                                 <div class="dropdown">
                                         <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fa fa-home fa-2x"></i>
+                                    <i class="fa fa-cog fa-2x"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">إضافة</a>
+                                        <a class="dropdown-item" href="#">حذف</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td class="text-center">
+                                <div class="dropdown">
+                                        <button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-cog fa-2x"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">إضافة</a>

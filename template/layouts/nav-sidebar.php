@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -21,8 +20,18 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExample02">
-                <a class="navbar-brand mr-auto" href="#">اللهم يسر</a><!--Brand Name-->
+                <a class="navbar-brand" href="#">اللهم يسر</a><!--Brand Name-->
             </div>
+            <!--Navbar Links-->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-sign-in"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-bell"></i></a>
+              </li>
+            </ul>
+
         </nav>
         <!--End Navbar-->
 
@@ -34,7 +43,6 @@
                     <li class="hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
                     <li class="hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
                 </ul>
-                <button type="button" class="btn btn-secondary hvr-wobble-vertical ">خروج</button><!--Log Out Button-->
             </div>
             <!--End Sidebar Wrapper -->
 

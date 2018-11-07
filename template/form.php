@@ -46,8 +46,8 @@
                           <label class="custom-file-label" for="customFile">إختار ملف </label>
                         </div>
                         <div class="col-md-7 send">
-                            <button type="submit" class="btn btn-primary mb-4">إرسال</button>
-                            <button type="reset" class="btn btn-primary mb-4">إلغاء</button>
+                            <button type="submit" class="btn btn-primary mb-4 pull-right">إرسال</button>
+                            <button type="reset" class="btn btn-primary mb-4 pull-left">إلغاء</button>
                         </div>    
                     </div>
 
