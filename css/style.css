@@ -14,9 +14,10 @@ body {
 .btn{
   border:0;
   background-color: #000;
+  transition: all .4s ease-in-out;
 }
 .btn:hover{
-
+background-color: #aaa;
 }
 .btn,
 .form-control,
@@ -34,7 +35,6 @@ body {
     margin-right: 15px;
 }
 .navbar .nav .nav-item .nav-link {
-    background-color: #000;
     color: #aaa;
 }
 /*wrapper*/
@@ -163,9 +163,10 @@ div.sidebar-wrapper {
 .page-content-wrapper .panel-body .table .dropdown button{
   border: 0;
   background: none;
+  transition: all .4s ease-in-out;
 }
 .page-content-wrapper .panel-body .table .dropdown button:hover{
-
+transform: scale(1.2,1.2);
 }
 .page-content-wrapper .panel-body .table .dropdown-menu.show {
     border-radius: 0;
@@ -196,6 +197,9 @@ div.sidebar-wrapper {
 /*Start Body Media Query*/
 @media (max-width: 767px) {
 
+.navbar .nav .nav-item .nav-link{
+  width: 0;
+}
 }
 @media (min-width: 768px){
 
