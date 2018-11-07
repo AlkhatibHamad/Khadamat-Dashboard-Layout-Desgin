@@ -11,4 +11,5 @@ $(function(){
       $("#wrapper").addClass("toggled");
     }
   });
+
 });
