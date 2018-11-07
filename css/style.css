@@ -156,4 +156,24 @@ div.sidebar-wrapper {
 .page-content-wrapper .panel-body .send .btn{
   margin-left: 10px;
 }
+.help-block {
+  color: #3c763d;
+  font-size: 12px;
+}
+.has-error {
+  color :#a94442;
+}
+.lobibox-notify {
+  font-family: "Cairo", sans-serif;
+}
+.lobibox-notify .lobibox-notify-title {
+  margin-right: 10px;
+}
+.lobibox-notify-wrapper.top {
+  top: 57px;
+}
+.lobibox-notify-wrapper.left {
+  left: 5px;
+  margin-right: 0px;
+}
 /*End Table Style*/
