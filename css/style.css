@@ -210,12 +210,11 @@ transform: scale(1.2,1.2);
 }
 }
 @media (min-width: 768px){
-
 }
 /*End Body Media Query*/
 /*Start Loading*/
 .loading-overlay{
-  background-color: rgba(253, 165, 62, .3);
+  background-color: rgba(253, 165, 62, .5);
   color: #fff;
   position: fixed;
   top: 0;
@@ -245,13 +244,53 @@ transform: scale(1.2,1.2);
 }
 @keyframes background {
   0% {
-  background-color: #27ae60;
+  background-color: #fff;
   }
   50% {
-    background-color: #9b59b6;
+    background-color: #fff;
   }
   100% {
-    background-color: #c0392b;
+    background-color: #fff;
   }
 }
 /*End Loading*/
+
+/*Start Profile*/
+.profile-userpic {
+   margin-bottom: 30px;
+}
+.profile-userpic img {
+  border:2px solid #fda53e;
+}
+.profile .profile-data .profile-user-name{
+  color:  #878787;
+}
+.profile .profile-data .profile-usertitle .item{
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 30px;
+  color:  #878787;
+}
+.profile .profile-data .profile-usertitle .item a:hover,
+.profile .profile-data .profile-usertitle .item:hover{
+  color: #fda53e;
+}
+.profile .profile-data .profile-usertitle h6{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.profile .profile-data .profile-usertitle .item a{
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #878787;
+}
+.profile-table .table-title {
+    color: #a56e2d;
+}
+/*End Profile*/
