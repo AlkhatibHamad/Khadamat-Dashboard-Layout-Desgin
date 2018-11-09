@@ -47,8 +47,8 @@
             </div>
             <!--End Sidebar Wrapper -->
 
-
-
-
-
-
+            <!--Start loading-->
+            <div class="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+            <!--Start loading-->

@@ -43,3 +43,21 @@ function readURL(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
+
+  /*Start loadind*/
+  $('.hvr-backward').click(function(){
+    $('body').css('overflow','hidden')
+
+    $('.loading-overlay').fadeIn(1000,function(){
+
+      $('.loading-overlay').fadeOut(2000,function(){
+
+         $('body').css('overflow','auto')
+      });
+
+    });
+
+  });
+/*End loadind*/
+
+
