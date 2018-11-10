@@ -44,14 +44,14 @@
                                     </div>     
                                 </div>  
                                 <div class="row">
-                                    <div class="item col-md-4">
-                                        <a target="_blank" class="" href="#" role=""> 
+                                    <div class=" item col-md-4">
+                                        <a class="certif" href="#" role=""> 
                                          <i class="fa fa-certificate fa-2x"></i>
                                         <h6>الشهادات </h6>
                                         </a>
                                     </div>
                                     <div class="item col-md-4">
-                                        <a target="_blank" class="" href="#"> 
+                                        <a class="identit" href="#"> 
                                          <i class="fa fa-id-card fa-2x"></i>
                                         <h6>الهوية الشخصية</h6>
                                         </a>
@@ -116,6 +116,50 @@
         </div>
     </div> 
     <!--End Page Content -->
+
+    <div class="Profile-overlay-certificate">
+        <div class="certificate">
+            <div class="certificate-content">
+                <div class="close pull-left">
+                    <button type="button" class="btn btn-outline-primary"><i class="fa fa-window-close fa-2x"></i></button>
+                 </div>  
+                <div class="title">
+                    <h1>الشهادات</h1>
+                </div>
+
+                <div class="certificate-img">  
+                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="certificate-img">  
+                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="certificate-img">  
+                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="certificate-img">  
+                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Profile-overlay-identity">
+        <div class="identity">
+            <div class="identity-content">
+                <div class="close pull-left">
+                    <button type="button" class="btn btn-outline-primary"><i class="fa fa-window-close fa-2x"></i></button>
+                 </div>  
+                <div class="title">
+                    <h1>الهوية الشخصية</h1>
+                </div>
+
+                <div class="identity-img">  
+                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- INCLUDE FOOTER SECTION -->
 <?php include('layouts/footer.php') ?>

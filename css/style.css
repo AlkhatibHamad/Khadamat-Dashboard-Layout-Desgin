@@ -315,6 +315,7 @@ transform: scale(1.2,1.2);
 /*End Loading*/
 
 /*Start Profile*/
+
 .profile-userpic {
    margin-bottom: 30px;
 }
@@ -352,4 +353,103 @@ transform: scale(1.2,1.2);
 .profile-table .table-title {
     color: #a56e2d;
 }
+
 /*End Profile*/
+
+/*Profile Modile*/
+.Profile-overlay-certificate{
+  background-color: rgba(253, 165, 62, .1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;}
+.Profile-overlay-certificate .certificate .certificate-content{
+  width: 50%;
+  height: 600px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  background-color:#eee;
+  color: #878787;
+  z-index: 999999;
+  margin: auto;
+  overflow-y:scroll;
+  overflow-x:hidden; 
+  border:2px solid #a56e2d;
+  margin-top: 60px;
+}
+.Profile-overlay-certificate .title{
+ margin-right: 20px;
+}
+.Profile-overlay-certificate .close button{
+  border:0;
+  color: #878787;
+}
+.Profile-overlay-certificate .close button:hover{
+  color: #d24c4c;
+  background: none;
+}
+.img-fluid {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+@media (max-width: 767px) {
+.Profile-overlay-certificate .certificate .certificate-content{
+  width: 100%;
+  left: 0;
+  right: 0;
+  }
+} 
+/*End Profile*/
+
+.Profile-overlay-identity{
+  background-color: rgba(253, 165, 62, .1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;
+}
+.Profile-overlay-identity .identity .identity-content{
+width: 50%;
+position: absolute;
+left: 25%;
+right: 25%;
+background-color:#eee;
+color: #878787;
+z-index: 999999;
+margin: auto;
+overflow-y:scroll;
+overflow-x:hidden; 
+border:2px solid #a56e2d;
+margin-top: 60px;
+}
+.Profile-overlay-identity .title{
+ margin-right: 20px;
+}
+.Profile-overlay-identity .close button{
+  border:0;
+  color: #878787;
+}
+.Profile-overlay-identity .close button:hover{
+  color: #d24c4c;
+  background: none;
+}
+.img-fluid {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+@media (max-width: 767px) {
+.Profile-overlay-identity .certificate .certificate-content{
+  width: 100%;
+  left: 0;
+  right: 0;
+  }
+} 
