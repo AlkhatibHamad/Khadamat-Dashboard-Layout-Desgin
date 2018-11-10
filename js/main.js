@@ -27,7 +27,34 @@ $(function(){
     });
 
   });
-/*End loadind*/
+  /*End loadind*/
+
+
+  /*profile certificate*/
+  $('.certif').click(function(){
+    $('.Profile-overlay-certificate').fadeIn(2000,function(){
+      $('body').css('overflow','hidden');
+    });
+  });
+
+  $('.close').click(function(){
+    $('.Profile-overlay-certificate').fadeOut(2000,function(){
+      $('body').css('overflow','auto');
+    });
+  });
+
+
+  $('.identit').click(function(){
+    $('.Profile-overlay-identity').fadeIn(2000,function(){
+      $('body').css('overflow','hidden');
+    });
+  });
+
+  $('.close').click(function(){
+    $('.Profile-overlay-identity').fadeOut(2000,function(){
+      $('body').css('overflow','auto');
+    });
+  });
 
 
 
