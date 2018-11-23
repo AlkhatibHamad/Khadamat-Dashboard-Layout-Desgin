@@ -17,7 +17,6 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
-
 .btn,
 .form-control,
 .custom-file-label{
@@ -45,12 +44,6 @@ body {
 }
 .page-content-wrapper .panel-heading{
   color: #a56e2d;
-}
-.dropdown-menu {
-  padding: 0;
-}
-.dropdown-item:hover {
-  background-color: #fda53e;
 }
 /*End Poblic Style*/
 .navbar{
@@ -97,7 +90,7 @@ body {
 }
 div.page-content-wrapper,
 div.sidebar-wrapper {
-    top: 61px;
+    top: 60px;
 }
 .page-content-wrapper {
   width: 100%;
@@ -124,6 +117,19 @@ div.sidebar-wrapper {
   display: block;
   text-decoration: none;
   color: #ccc;
+}
+.sidebar-nav .dropdown-menu.show {
+    width: 100%;
+    background-color: #171717;
+    border-bottom: 2px solid #ccc;
+}
+.sidebar-nav .submenu a{
+  transition: all .5s ease-in-out;
+
+}
+.sidebar-nav .fa.fa-caret-down.pull-left{
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
@@ -212,6 +218,65 @@ transform: scale(1.2,1.2);
 @media (min-width: 768px){
 }
 /*End Body Media Query*/
+
+
+/* Responsive Table Start */
+
+@media only screen and (max-width: 800px) {
+
+  /* Force table to not be like tables anymore */
+  #it-is-responsive-table table,
+  #it-is-responsive-table thead,
+  #it-is-responsive-table tbody,
+  #it-is-responsive-table th,
+  #it-is-responsive-table td,
+  #it-is-responsive-table tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #it-is-responsive-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #it-is-responsive-table tr { border: 1px solid #ccc; }
+
+  #it-is-responsive-table td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    white-space: normal;
+  }
+
+  #it-is-responsive-table td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+
+  /*
+  Label the data
+  */
+  #it-is-responsive-table td:before { content: attr(data-title); }
+
+  /* Responsive Admin Tabs*/
+  .admin-reports .reports-item {
+    width: 100%;
+  }
+}
+
+/* Responsive Table End*/
+
 /*Start Loading*/
 .loading-overlay{
   background-color: rgba(253, 165, 62, .5);
@@ -343,51 +408,44 @@ transform: scale(1.2,1.2);
   }
 } 
 /*End Profile*/
+/*Start Admin Dashboard*/
+.dashboard-one .card{
+  margin-bottom: 20px;
+  border: 0;
+}
+.dashboard-one .card-body{
+  background-color: #171717;
+}
 
-.Profile-overlay-identity{
-  background-color: rgba(253, 165, 62, .1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99999;
-  display: none;
+.dashboard-one .card-description,
+.dashboard-one .card-number{
+  background-color: #eee;
 }
-.Profile-overlay-identity .identity .identity-content{
-width: 50%;
-position: absolute;
-left: 25%;
-right: 25%;
-background-color:#eee;
-color: #878787;
-z-index: 999999;
-margin: auto;
-overflow-y:scroll;
-overflow-x:hidden; 
-border:2px solid #a56e2d;
-margin-top: 60px;
+.dashboard-one .card-description h4
+{
+margin-top: 15px;
+font-weight: bold;
 }
-.Profile-overlay-identity .title{
- margin-right: 20px;
+.dashboard-one .card-number h6{
+  font-weight: bold;
+  margin-bottom: 15px;
 }
-.Profile-overlay-identity .close button{
-  border:0;
-  color: #878787;
+
+.dashboard-one .fa-3x{
+  color: #fda53e;
 }
-.Profile-overlay-identity .close button:hover{
-  color: #d24c4c;
-  background: none;
+.dashboard-two .card{
+  border: 0;
+  border-radius: 0;
+  background-color: #eee; 
+  margin-bottom: 20px;
 }
-.img-fluid {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-@media (max-width: 767px) {
-.Profile-overlay-identity .certificate .certificate-content{
-  width: 100%;
-  left: 0;
-  right: 0;
-  }
+.dashboard-two .card .fa-3x{
+color: #fda53e;
+margin: 0;
+border: 1px solid;
+border-radius: 100px;
+padding: 15px;
+background-color:#171717;
 } 
+/*End Admin Dashboard*/

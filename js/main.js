@@ -12,9 +12,40 @@ $(function(){
     }
   });
 
+});
+
+$(document).ready(function () {
+
+  // show/hid upload image input
+    var image_input_div = '<div class="custom-file re-upload-image-input">\n    ' +
+        '   <input type="file" onchange="readURL(this)" class="custom-file-input mb-4" id="customFile" name="icon" required>\n    ' +
+        '   <label class="custom-file-label" for="customFile">إختر الايقونة </label>\n' +
+        '</div>';
+
+    $('.image-preview .re-upload-btn').click(function () {
+        $('.image-preview').parent().append(image_input_div);
+        $(this).remove();
+    })
+});
+
+// Display selected Image
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            $('#selectedImageHolder')
+                .attr('src', e.target.result)
+                .width(50)
+                .height(50);
+        };
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
 
   /*Start loadind*/
-  $('.hvr-backward').click(function(){
+  $('.menu-itme').click(function(){
     $('body').css('overflow','hidden')
 
     $('.loading-overlay').fadeIn(1000,function(){
@@ -28,34 +59,3 @@ $(function(){
 
   });
   /*End loadind*/
-
-
-  /*profile certificate*/
-  $('.certif').click(function(){
-    $('.Profile-overlay-certificate').fadeIn(2000,function(){
-      $('body').css('overflow','hidden');
-    });
-  });
-
-  $('.close').click(function(){
-    $('.Profile-overlay-certificate').fadeOut(2000,function(){
-      $('body').css('overflow','auto');
-    });
-  });
-
-
-  $('.identit').click(function(){
-    $('.Profile-overlay-identity').fadeIn(2000,function(){
-      $('body').css('overflow','hidden');
-    });
-  });
-
-  $('.close').click(function(){
-    $('.Profile-overlay-identity').fadeOut(2000,function(){
-      $('body').css('overflow','auto');
-    });
-  });
-
-
-
-});

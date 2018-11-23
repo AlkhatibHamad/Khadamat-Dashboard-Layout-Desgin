@@ -117,49 +117,30 @@
     </div> 
     <!--End Page Content -->
 
-    <div class="Profile-overlay-certificate">
-        <div class="certificate">
-            <div class="certificate-content">
-                <div class="close pull-left">
-                    <button type="button" class="btn btn-outline-primary"><i class="fa fa-window-close fa-2x"></i></button>
-                 </div>  
-                <div class="title">
-                    <h1>الشهادات</h1>
-                </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
 
-                <div class="certificate-img">  
-                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="certificate-img">  
-                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="certificate-img">  
-                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="certificate-img">  
-                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
-                </div>
-            </div>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
-
-
-    <div class="Profile-overlay-identity">
-        <div class="identity">
-            <div class="identity-content">
-                <div class="close pull-left">
-                    <button type="button" class="btn btn-outline-primary"><i class="fa fa-window-close fa-2x"></i></button>
-                 </div>  
-                <div class="title">
-                    <h1>الهوية الشخصية</h1>
-                </div>
-
-                <div class="identity-img">  
-                    <img src="../images/1.jpeg" class="img-fluid" alt="Responsive image">
-                </div>
-            </div>
-        </div>
-    </div>
-
+  </div>
+</div>
 <!-- INCLUDE FOOTER SECTION -->
 <?php include('layouts/footer.php') ?>
