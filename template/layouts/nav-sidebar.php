@@ -43,16 +43,6 @@
                 <ul class="sidebar-nav">
                     <li class="menu-itme hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
                     <li class="menu-itme hvr-backward"> <a href="#"><i class="fa fa-home"></i> الرئيسية</a> </li>
-                    <div class="dropdown-show">
-                        <li class="submenu hvr-backward" id="dropdownMenuLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <a href="#"><i class="fa fa-caret-down pull-left"></i><i class="fa fa-home"></i> الرئيسية</a>
-                        </li>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li class="menu-itme hvr-backward"> <a href="#"><i class="fa fa-cog"></i> فرعية</a> </li>
-                        <li class="menu-itme hvr-backward"> <a href="#"><i class="fa fa-cog"></i>  فرعية</a> </li>
-                      </ul>
-                    </div>
-
                 </ul>
             </div>
             <!--End Sidebar Wrapper -->

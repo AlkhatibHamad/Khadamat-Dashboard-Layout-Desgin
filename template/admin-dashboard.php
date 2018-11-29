@@ -19,7 +19,7 @@
                         <div class="col-sm-6  col-md-6 col-lg-3 text-center">
                             <div class="card ">
                               <div class="card-body">
-                                <i class="fa fa-comments fa-3x"></i>
+                                <i class="fa fa-folder fa-3x"></i>
                               </div>
                               <div class="card-description"><h4>الطلبات</h4></div>
                               <div class="card-number"><h6>1,455</h6></div>
@@ -65,8 +65,8 @@
                             <div class="card">
                               <div class="card-body">
                                 <i class="fa fa-tasks fa-3x pull-left"></i>
-                                <h5 class="card-title">إدارة الاحياء </h5>
-                                <p>أدارة المبيعات و المشتريات</p>
+                                <h4 class="card-title">إدارة الاحياء </h4>
+                                <h6>500حي</h6>
                               </div>
                             </div>
                         </div>
@@ -74,8 +74,8 @@
                             <div class="card">
                               <div class="card-body">
                                 <i class="fa fa-tasks fa-3x pull-left"></i>
-                                <h5 class="card-title">إدارة المحليات</h5>
-                                <p>أدارة المبيعات و المشتريات</p>
+                                <h4 class="card-title">إدارة المحليات</h4>
+                                <h6>78 محلية</h6>
                               </div>
                             </div>
                         </div>
@@ -83,8 +83,8 @@
                             <div class="card">
                               <div class="card-body">
                                 <i class="fa fa-tasks fa-3x pull-left"></i>
-                                <h5 class="card-title">إدارة الارصدة</h5>
-                                <p>50 محلية</p>
+                                <h4 class="card-title">إدارة الارصدة</h4>
+                                <h6>50 محلية</h6>
                               </div>
                             </div>
                         </div>
@@ -92,9 +92,50 @@
                             <div class="card">
                               <div class="card-body">
                                 <i class="fa fa-tasks fa-3x pull-left"></i>
-                                <h5 class="card-title">إدارة الولايات</h5>
-                                <p>أدارة المبيعات و المشتريات</p>
+                                <h4 class="card-title">إدارة الولايات</h4>
+                                <h6>100 ولاية</h6>
                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="dashboard-three">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3 text-center">
+                            <div class="card ">
+                              <div class="card-description"><h4>الاقسام الفرعية</h4></div>
+                              <div class="card-body">
+                                <i class="fa fa-window-restore fa-3x"></i>
+                              </div>
+                              <div class="card-number"><h6>456</h6></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 text-center">
+                            <div class="card ">
+                              <div class="card-description"><h4>الاقسام الرئيسية</h4></div>
+                              <div class="card-body">
+                                <i class="fa fa-window-maximize fa-3x"></i>
+                              </div>
+                              <div class="card-number"><h6>1,888</h6></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 text-center">
+                            <div class="card ">
+                              <div class="card-description"><h4>العروض الخاصة</h4></div>
+                              <div class="card-body">
+                                <i class="fa fa-file fa-3x"></i>
+                              </div>
+                              <div class="card-number"><h6>1,226</h6></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 text-center">
+                            <div class="card ">
+                              <div class="card-description"><h4>المشاكل و الاعطال</h4></div>
+                              <div class="card-body">
+                                <i class="fa fa-wrench fa-3x"></i>
+                              </div>
+                              <div class="card-number"><h6>295</h6></div>
                             </div>
                         </div>
                     </div>

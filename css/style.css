@@ -448,6 +448,11 @@ font-weight: bold;
   background-color: #eee; 
   margin-bottom: 20px;
 }
+.dashboard-two h4,
+.dashboard-two h6{
+  font-weight: bold;
+}
+
 .dashboard-two .card .fa-3x{
 color: #fda53e;
 margin: 0;
@@ -455,6 +460,23 @@ border: 1px solid;
 border-radius: 100px;
 padding: 15px;
 background-color:#171717;
+}
+.dashboard-three .card{
+  border: 0;
+  border-radius: 0;
+  background-color: #eee; 
+  margin-bottom: 20px;
+}
+.dashboard-three .card-body{
+  background-color:#171717;
+}
+.dashboard-three .card-description h4,
+.dashboard-three .card-number h6{
+margin: 10px 0 10px 0;
+font-weight: bold;
+}
+.dashboard-three .card-body i{
+color: #fda53e;
 }
 
 /*End Admin Dashboard*/
